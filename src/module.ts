@@ -9,7 +9,10 @@ import {
   addImports,
   addTemplate,
 } from '@nuxt/kit'
-import { MultiCacheServerOptions, NuxtMultiCacheOptions } from './runtime/types'
+import type {
+  MultiCacheServerOptions,
+  NuxtMultiCacheOptions,
+} from './runtime/types'
 import {
   defaultOptions,
   DEFAULT_CDN_CONTROL_HEADER,
